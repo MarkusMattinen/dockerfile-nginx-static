@@ -1,0 +1,3 @@
+#!/usr/bin/with-contenv bash
+
+confd -onetime -backend env -config-file /etc/confd/confd.toml
